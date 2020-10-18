@@ -33,7 +33,7 @@ chmod +x ~/screen-scaling-fixer/start.sh
 
 7. **Enable the startup script:**
 ```
-printf\
+printf \
 "[Desktop Entry]\n\
 Name=fs-fixer\n\
 GenericName=fs-fixer\n\
