@@ -17,12 +17,14 @@ sudo apt install default-jre
 ```
 
 4. **Download latest version of .JAR file from releases:**  
-https://github.com/mind-overflow/gnome-fs-duplicate-cursor-fix/releases/latest
+```
+wget -O ~/ScreenScalingFixer.jar https://github.com/mind-overflow/gnome-fs-duplicate-cursor-fix/releases/download/v1.0/ScreenScalingFixer-1.0-SNAPSHOT.jar
+```
 
 5. **Create a directory in your home folder and put the JAR file inside of it:**
 ```
 mkdir ~/screen-scaling-fixer/
-mv ScreenScalingFixer*.jar ~/screen-scaling-fixer/ScreenScalingFixer.jar
+mv ~/ScreenScalingFixer.jar ~/screen-scaling-fixer/ScreenScalingFixer.jar
 ```
 
 6. **Create a startup script:**
