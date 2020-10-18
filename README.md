@@ -27,7 +27,7 @@ mv ScreenScalingFixer*.jar ~/screen-scaling-fixer/ScreenScalingFixer.jar
 
 6. **Create a startup script:**
 ```
-echo "sh -c \"java -jar ~/screen-scaling-fixer/ScreenScalingFixer.jar\"" > ~/screen-scaling-fixer/start.sh
+echo "sh -c \"cd ~/screen-scaling-fixer/ && java -jar ~/screen-scaling-fixer/ScreenScalingFixer.jar\"" > ~/screen-scaling-fixer/start.sh
 chmod +x ~/screen-scaling-fixer/start.sh
 ```
 
