@@ -33,16 +33,16 @@ chmod +x ~/screen-scaling-fixer/start.sh
 
 7. **Enable the startup script:**
 ```
-printf \
-"[Desktop Entry] \n\
-Name=fs-fixer \n\
-GenericName=fs-fixer \n\
-Comment=fix gnome scaling duplicate cursor \n\
-Exec=sh -c ~/screen-scaling-fixer/start.sh \n\
-Terminal=false \n\
-Type=Application \n\
-X-GNOME-Autostart-enabled=true \n\
-X-GNOME-Autostart-Delay=1 \n" > ~/.config/autostart/fractional-scaling-fix.desktop
+printf\
+"[Desktop Entry]\n\
+Name=fs-fixer\n\
+GenericName=fs-fixer\n\
+Comment=fix gnome scaling duplicate cursor\n\
+Exec=sh -c ~/screen-scaling-fixer/start.sh\n\
+Terminal=false\n\
+Type=Application\n\
+X-GNOME-Autostart-enabled=true\n\
+X-GNOME-Autostart-Delay=1\n" > ~/.config/autostart/fractional-scaling-fix.desktop
 
 chmod +x ~/.config/autostart/fractional-scaling-fix.desktop
 ```
