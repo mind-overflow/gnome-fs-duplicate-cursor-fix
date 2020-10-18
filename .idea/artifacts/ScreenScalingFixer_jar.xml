@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScreenScalingFixer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScreenScalingFixer_jar</output-path>
+    <root id="archive" name="ScreenScalingFixer.jar">
+      <element id="module-output" name="ScreenScalingFixer" />
+    </root>
+  </artifact>
+</component>
