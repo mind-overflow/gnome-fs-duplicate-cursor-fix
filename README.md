@@ -57,7 +57,7 @@ cd ~/screen-scaling-fixer
 
 9. **Edit config.yml accordingly:**
 ```yaml
-enable: false # set this to true, else the script won't run!
+enable: false # set this to true, or the script won't run!
 delay: 2000 # chose how long to wait after login before restarting GNOME.
 monitor-connector: 'DisplayPort-1' # chose ONE monitor that requires fractional scaling to be enabled. Don't worry if you have multiple ones.
 scale: 1.5 # set the desired fractional scale.
