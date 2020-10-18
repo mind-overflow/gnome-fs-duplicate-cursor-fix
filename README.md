@@ -72,7 +72,7 @@ scale: 1.5 # set the desired fractional scale.
 
 # How this works
 The concept behind this fix is simple.  
-If you enable the experimental fractional-scaling feature in eg. Ubuntu 20.04, you probably noticed that, upon login, a dead cursor is stuck on screen, and a secondary bigger one appears.  
+If you enabled the experimental fractional-scaling feature in eg. Ubuntu 20.04, you probably noticed that, upon login, a dead cursor gets stuck on screen, and a second bigger one appears.  
 This problem is fixed, however, if you switch back to 1.0x scale, apply, and then get back to your desired one.  
 To automate this process, I developed a small Java open-source fix that automatically does it after logging in.  
 You simply have to input your screen settings in config.yml, logout, re-login and you should notice your screen flashing twice.  
