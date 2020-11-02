@@ -24,16 +24,26 @@ wget -O ~/ScreenScalingFixer.jar https://github.com/mind-overflow/gnome-fs-dupli
 5. **Create a directory in your home folder and put the JAR file inside of it:**
 ```
 mkdir ~/screen-scaling-fixer/
+```
+```
 mv ~/ScreenScalingFixer.jar ~/screen-scaling-fixer/ScreenScalingFixer.jar
 ```
 
 6. **Create a startup script:**
 ```
 echo "sh -c \"cd ~/screen-scaling-fixer/ && java -jar ~/screen-scaling-fixer/ScreenScalingFixer.jar\"" > ~/screen-scaling-fixer/start.sh
+```
+```
 chmod +x ~/screen-scaling-fixer/start.sh
 ```
 
 7. **Enable the startup script:**
+```
+mkdir ~/.config
+```
+```
+mkdir ~/.config/autostart
+```
 ```
 printf \
 "[Desktop Entry]\n\
@@ -45,7 +55,8 @@ Terminal=false\n\
 Type=Application\n\
 X-GNOME-Autostart-enabled=true\n\
 X-GNOME-Autostart-Delay=1\n" > ~/.config/autostart/fractional-scaling-fix.desktop
-
+```
+```
 chmod +x ~/.config/autostart/fractional-scaling-fix.desktop
 ```
 
