@@ -3,6 +3,12 @@ Fix Ubuntu/GNOME's "duplicate cursor" fractional scaling bug.
 
 # How to install
 
+## Noob-friendly installation guide
+
+Read this blog post: https://www.mind-overflow.net/post/fixing-ubuntu-fractiona-scaling-bug/
+
+## Standard install:
+
 1. **Enable X11 fractional scaling:**
 ```
 gsettings set org.gnome.mutter experimental-features "['x11-randr-fractional-scaling']"
