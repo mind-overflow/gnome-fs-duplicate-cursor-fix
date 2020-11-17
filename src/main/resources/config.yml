@@ -1,0 +1,4 @@
+enable: false
+delay: 2000
+monitor-connector: 'DisplayPort-1'
+scale: 1.5

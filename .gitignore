@@ -72,5 +72,5 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # Ignore self-extracted stuff
-config.yml
-restart.sh
+./config.yml
+./restart.sh
