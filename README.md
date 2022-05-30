@@ -1,5 +1,7 @@
 # GNOME Fractional Scaling duplicate cursor fix  
-Fix Ubuntu/GNOME's "duplicate cursor" fractional scaling bug.  
+Fix Ubuntu/GNOME's "duplicate cursor" fractional scaling bug.    
+  
+**Warning**: this tool is no longer maintained. I have moved to another distro and have no time to track GNOME's upstream neglected bugs.
 
 # How to install
 
@@ -91,7 +93,7 @@ scale: 1.5 # set the desired fractional scale.
 The concept behind this fix is simple.  
 If you enabled the experimental fractional-scaling feature in eg. Ubuntu 20.04, you probably noticed that, upon login, a dead cursor gets stuck on screen, and a second bigger one appears.  
 This problem is fixed, however, if you switch back to 1.0x scale, apply, and then get back to your desired one.  
-To automate this process, I developed a small Java open-source fix that automatically does it after logging in.  
+To automate this process, I developed a small Java tool that automatically does it after logging in.  
 You simply have to input your screen settings in config.yml, logout, re-login and you should notice your screen flashing twice.  
 The dead cursor should disappear.  
 
